@@ -35,12 +35,32 @@
     <Reference Include="Markdig, Version=0.13.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Markdig.0.13.1\lib\net40\Markdig.dll</HintPath>
     </Reference>
-    <Reference Include="PresentationCore" />
-    <Reference Include="PresentationFramework" />
+    <Reference Include="PresentationCore">
+      <HintPath>..\packages\Microsoft.Xaml.4.0.0.1\lib\PresentationCore.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <HintPath>..\packages\Microsoft.Xaml.4.0.0.1\lib\PresentationFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Xaml" />
-    <Reference Include="WindowsBase" />
+    <Reference Include="System.Design">
+      <HintPath>..\packages\Microsoft.Xaml.4.0.0.1\lib\System.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xaml">
+      <HintPath>..\packages\Microsoft.Xaml.4.0.0.1\lib\System.Xaml.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="UIAutomationProvider">
+      <HintPath>..\packages\Microsoft.Xaml.4.0.0.1\lib\UIAutomationProvider.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <HintPath>..\packages\Microsoft.Xaml.4.0.0.1\lib\WindowsBase.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Annotations\CanBeNullAttribute.cs" />
