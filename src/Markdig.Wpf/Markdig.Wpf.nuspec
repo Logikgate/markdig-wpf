@@ -1,16 +1,19 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>Markdig.Wpf</id>
-    <version>0.2.1</version>
-    <title>Markdig.Wpf</title>
-    <authors>Nicolas Musset</authors>
-    <owners>Nicolas Musset</owners>
-    <licenseUrl>https://github.com/Kryptos-FR/markdig-wpf/blob/master/LICENSE.md</licenseUrl>
-    <projectUrl>https://github.com/Kryptos-FR/markdig-wpf</projectUrl>
+    <id>Markdig.Wpf.Net4.5</id>
+    <version>0.2.2</version>
+    <title>Markdig.Wpf.Net4.5</title>
+    <authors>Nick Fredricks</authors>
+    <owners>Nick Fredricks</owners>
+    <licenseUrl>https://github.com/logikgate/markdig-wpf/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/logikgate/markdig-wpf</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A WPF library for lunet-io/markdig</description>
     <releaseNotes>
+      $gt; 0.2.2
+      - Modified to target .Net4.5
+      
       &gt; 0.2.1
       - updated to latest Markdig 0.13.1
       - allow to change the MarkdownPipeline on a MarkdownViewer control
@@ -21,7 +24,7 @@
       - support for TaskList extension
       - partial support for Table extensions
     </releaseNotes>
-    <copyright>Copyright (c) 2016-2017 Nicolas Musset</copyright>
+    <copyright>Copyright (c) 2016-2017 Nick Fredricks</copyright>
     <tags>Markdown CommonMark md xaml WPF</tags>    
     <dependencies>
         <group targetFramework=".NETFramework4.5">
